@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         produtos.add(Produto(7, "Camiseta Alan Turing" ))
         produtos.add(Produto(8, "Camiseta X-Men" ))
         produtos.add(Produto(9, "Camiseta Jesus Programador" ))
+        produtos.add(Produto(10, "Camiseta Código Morse" ))
 
         var adapter = ProdutoAdapter(produtos)
 
